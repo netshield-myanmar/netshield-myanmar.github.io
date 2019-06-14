@@ -1,0 +1,104 @@
+/*************************
+    COMMON
+**************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #242750;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    color: #575fa8;
+}
+.font-title {
+    font-family: 'Merriweather', serif;
+}
+.font-body {
+    font-family: 'Open Sans', sans-serif; 
+}
+.f-color {
+    color: #575fa8;
+}
+.s-color {
+    color: #242750;
+}
+
+.navbar-light .navbar-toggler {
+    border-color:0;
+    border:none;
+}
+/*************************
+    HEADER
+**************************/
+#header {
+    margin-top: 56px;
+    background: #575fa8;
+    color: #fff;
+}
+#header .image {
+    padding: 50px;
+}
+#header .content {
+    padding: 70px 0;
+}
+/*************************
+    SERVICE
+**************************/
+#service {
+    background-color: #eee;
+}
+#service .img-wrapper {
+    padding: 40px 0 10px 0;
+}
+#service .img-wrapper img {
+    height: 100px;
+    width: auto;
+}
+#service .card-body {
+    padding: 1.25rem 12px;
+}
+/*************************
+    CONTACT
+**************************/
+#contact {
+    background-color: #f8f9fa;
+}
+#contact .img-wrapper {
+    width: 300px;
+    margin: auto;
+}
+#contact .contact h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #575fa8;
+}
+#contact.contact {
+    margin-bottom: 25px;
+}
+#contact .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #575fa8;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px 5px;
+    font-size: 20px;
+}
+#contact .icon a {
+    text-decoration: none;
+    color: #575fa8;
+}
+#contact .contact p {
+    color: #242750;
+    font-size: 0.9em;
+}
+#contact .icon:hover {
+    background: #575fa8;
+    border: 1px solid #575fa8;
+}
+#contact .icon:hover a {
+    color: #fff;
+}
